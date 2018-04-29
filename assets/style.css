@@ -64,10 +64,14 @@ body {
     margin-top: 40px;
 }
 
+    .products-container header {
+        margin-bottom: 20px;
+    }
+
     .products-container h1 {
         font-size: 24px;
         font-weight: bold;
-        color: #333;
+        color: #222f3e;
         text-align: center;
     }
 
@@ -75,8 +79,8 @@ body {
     PRODUCT INFO STYLES
  */
 .product-info {
-    margin: 20px 0;
     padding: 10px;
+    border-radius: 2px;
 }
 
     .product-info li {
@@ -88,9 +92,9 @@ body {
     }
 
     .product-info:nth-child(even) {
-        background: #CCC
+        background: #8395a7;
     }
 
     .product-info:nth-child(odd) {
-        background: #FFF
+        background: #FFF;
     }

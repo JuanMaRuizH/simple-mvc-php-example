@@ -24,5 +24,25 @@ INSERT INTO `products` (`cod`, `short_name`, `pvp`, `nombre`) VALUES
 (3, 'iPad Pro', '900.00', 'Apple iPad Pro 9');
 ```
 
+## Resumen patrón MVC
 
+Existen 3 niveles de abstracción:
+
+* **Modelo**.- Es quien define la lógica de negocio. Son las clases y los métodos que se comunican directamente con la base de datos.
+* **Vista**.- Muestra la información al usuario de manera lógica y legible.
+* **Controlador**.- Es el intermediario entre la vista y el modelo. Controla las interacciones del usuario en la vista. Pide los datos
+al modelo y los devuelve a la vista para que los muestre. Es el encargado de realizar las llamadas a las clases y los métodos.
+
+### Funcionamiento del MVC
+
+1. El usuario realiza una petición.
+2. El controlador captura la petición.
+3. El controllador hace la llamada al modelo correspondiente.
+4. El modelo interactúa con la base de datos.
+5. el controlador recibe la información del modelo (base de datos) y la envía a la vista.
+6. La vista muestra la información.
+
+**Diagrama MVC**
+
+![](MVC diagram.png) 
 
