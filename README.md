@@ -44,5 +44,5 @@ al modelo y los devuelve a la vista para que los muestre. Es el encargado de rea
 
 **Diagrama MVC**
 
-![](MVC diagram.png) 
+![](mvc-diagram.png) 
 
